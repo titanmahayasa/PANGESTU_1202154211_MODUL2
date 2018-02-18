@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="16dp"
+    tools:context="com.example.pangestutitan.pangestu_1202154211_modul2.Food1">
+
+    <TextView
+        android:id="@+id/food1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:text="Spaghetti"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:layout_width="288dp"
+        android:layout_height="288dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/spaghetti"
+        />
+
+    <TextView
+        android:id="@+id/harga"
+        android:text="Rp 28.500"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:textColor="#111"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"/>
+
+    <TextView
+        android:id="@+id/komposisi"
+        android:text="Composition :"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"/>
+
+    <TextView
+        android:id="@+id/detailMenu"
+        android:text="Spaghetti is a long, thin, solid, cylindrical pasta with various of sauces."
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"/>
+
+</LinearLayout>
